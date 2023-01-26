@@ -9,6 +9,7 @@
     border: 1px solid black;
     margin: 0 7.5px 15px;
     overflow: hidden;
+    // font-family: 'Sofia Sans Semi Condensed', sans-serif;
   
     &:hover {
       cursor: pointer;
@@ -62,7 +63,7 @@
       }
   
       p {
-        font-weight: lighter;
+        font-weight: 400;
         font-size: 16px;
       }
     }
