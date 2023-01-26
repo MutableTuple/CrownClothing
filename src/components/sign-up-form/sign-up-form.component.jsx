@@ -62,6 +62,15 @@ export const SignUpFormEmailPassword = () =>{
                 <FormInput type="password" required onChange={handleChange} name="confirmPassword" value={confirmPassword} label = "Confirm Password"/>
                 <Button type='submit'>Sign Up</Button>
             </form>
+
+            <h2>I already have an account</h2>
+            <h1>Sign in with your email & Password</h1>
+            <form onSubmit={handleSubmit}>     
+                <FormInput type="email" required onChange={handleChange} name="email" value={email} label = "Email"/>
+                <FormInput type="password" required onChange={handleChange} name="password" value={password} label = "Password"/>
+                <Button type='submit'>Sign In</Button>
+                <Button buttonType="google" type='submit'>Sign In with Google</Button>
+            </form>
             
         </div>
     );
